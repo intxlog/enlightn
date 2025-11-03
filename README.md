@@ -1,13 +1,6 @@
 <h1 align="center">Enlightn</h1>
 
-![tests](https://github.com/enlightn/enlightn/workflows/tests/badge.svg?branch=master)
-[![LGPLv3 Licensed](https://img.shields.io/badge/license-LGPLv3-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Latest Stable Version](https://poser.pugx.org/enlightn/enlightn/v/stable?format=flat-square)](https://packagist.org/packages/enlightn/enlightn)
-[![Total Downloads](https://img.shields.io/packagist/dt/enlightn/enlightn.svg?style=flat-square)](https://packagist.org/packages/enlightn/enlightn)
-[![Twitter Follow](https://img.shields.io/twitter/follow/Enlightn_app?label=Follow&style=social)](https://twitter.com/Enlightn_app)
-
-
-<h2 align="center">A Laravel Tool To Boost Your App's Performance &amp; Security</h2>
+<h2 align="center">A Laravel Tool to Check Performance &amp; Security</h2>
 
 ![Enlightn](https://cdn.laravel-enlightn.com/images/mockups/enlightn_terminal128.png)
 
@@ -51,21 +44,12 @@ Enlightn Pro (commercial) is available for purchase on the [Enlightn website](ht
 
 Each of the 131 checks available are well documented. You can find the complete documentation [here](https://www.laravel-enlightn.com/docs/getting-started/installation.html).
 
-## Compatibility Matrix
-
-| Enlightn | Laravel  | Larastan | PHPStan    |
-|:---------|:---------|:---------|:-----------|
-| 1.x      | 6.x-9.x  | 0.6x-1.x | 0.12x-1.1x |
-| 2.x      | 9.x-11.x | 2.x      | 1.4x+      |
-
-Note: The same compatibility matrix applies for Enlightn Pro versions.
-
 ## Installing Enlightn OSS
 
 You may install Enlightn into your project using the Composer package manager:
 
 ```bash
-composer require enlightn/enlightn
+composer require intxlog/enlightn
 ```
 
 After installing Enlightn, you may publish its assets using the vendor:publish Artisan command:
